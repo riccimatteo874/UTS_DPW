@@ -53,4 +53,19 @@ a:hover{
   transform: translateY(-5px);
   transition: all 0.5s ;
 }
+#hero p{
+  width: 50%;
+}
 
+/* about me */
+.tentang-kontainer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  text-align: justify;
+  gap: 30px;
+}
+.tentang-kontainer img{
+  width: 30%;
+}
