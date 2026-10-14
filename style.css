@@ -96,5 +96,20 @@ a:hover{
   height: 300px;
 }
 
-
-
+/* kontak */
+.kontainer-kontak{
+  display: flex;
+  gap: 20px;
+}
+.kontainer-kontak form{
+  width: 50%;
+}
+.kontainer-kontak form input{
+  width: 100%;
+}
+.kontainer-kontak form textarea{
+  width: 100%;
+}
+.kontainer-kontak .para-kontak{
+  width: 50%;
+}
