@@ -3,9 +3,71 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Ricci Matteo</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  
+  <header>
+    <h1>Ricci Matteo</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Beranda</a></li>
+        <li><a href="#">Tentang</a></li>
+        <li><a href="#">Proyek</a></li>
+        <li><a href="#">Kontak</a></li>
+        <li><a href="#">Tema</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="hero">
+      <img src="assets/peter.jpeg" alt="foto profil">
+      <p>Nama ku ricci matteo Lorem, ipsum dolor sit amet consectetur adipisicing elit. Distinctio aperiam doloribus doloremque quibusdam laboriosam vitae. Nam rem accusantium ab consectetur voluptatum minima cupiditate ut unde. Est nisi iusto nobis nihil!</p>
+      <a href="#">Lihat Proyek</a>
+    </section>
+
+    <section id="tentang">
+      <h2>About Me</h2>
+      <img src="assets/foto.jpg" alt="about me">
+      <p>Nama ku ricci matteo aku berumur 17 tahun Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus eos illum eaque distinctio minima, numquam saepe deleniti sequi dolores amet eius doloribus! Deleniti earum itaque vero quas praesentium totam dolore? <a href="">Selengkapnya</a></p>
+    </section>
+
+    <section id="proyek">
+      <h2>Proyek/Keahlian</h2>
+      <div class="grid-proyek">
+        <article>
+          <img src="assets/html.png" alt="html">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sed esse optio similique harum voluptatum, explicabo eveniet, accusantium saepe consequuntur aliquid cupiditate eaque doloremque qui tempore distinctio! Similique, laudantium magni.</p>
+        </article>
+
+        <article>
+          <img src="assets/css.png" alt="html">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sed esse optio similique harum voluptatum, explicabo eveniet, accusantium saepe consequuntur aliquid cupiditate eaque doloremque qui tempore distinctio! Similique, laudantium magni.</p>
+        </article>
+
+        <article>
+          <img src="assets/javascript.png" alt="html">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis sed esse optio similique harum voluptatum, explicabo eveniet, accusantium saepe consequuntur aliquid cupiditate eaque doloremque qui tempore distinctio! Similique, laudantium magni.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="kontak">
+      <h2>Kontak</h2>
+      <div class="kontainer-kontak">
+        <form id="formKontak">
+          <input type="text" id="name" name="name" placeholder="Name"><br>
+          <input type="email" id="email" name="email" placeholder="Email"><br>
+          <textarea name="pesan" id="pesan" placeholder="Pesan"></textarea>
+          <input type="submit" value="Submit">
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 Ricci Matteo | @riccimtteeo</p>
+  </footer>
 </body>
 </html>
