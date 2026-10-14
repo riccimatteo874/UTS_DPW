@@ -14,6 +14,10 @@ header{
   justify-content: space-between;
   padding: 10px;
 }
+ul{
+  display: flex;
+  gap: 10px;
+}
 ul li{
   display: flex;
   flex-direction: column;
@@ -24,3 +28,8 @@ header li a{
   text-decoration: none;
   color: bisque;
 }
+a:hover{
+  transform: translateY(-3px);
+  transition: all 0.5s ;
+}
+
