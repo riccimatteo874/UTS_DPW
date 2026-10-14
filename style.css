@@ -65,7 +65,36 @@ a:hover{
   align-items: center;
   text-align: justify;
   gap: 30px;
+  margin-bottom: 10px;
 }
 .tentang-kontainer img{
-  width: 30%;
+  width: 20%;
 }
+
+/* Proyek */
+.grid-proyek{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 100%;
+  gap: 10px;
+}
+#proyek h2{
+  margin-bottom: 10px;
+}
+.grid-proyek article{
+  text-align: justify;
+  border: 1px solid bisque;
+  padding: 5px;
+}
+.grid-proyek article:hover{
+  border-color: azure;
+  transform: translateY(-5px);
+  transition: all 0.5s;
+}
+.grid-proyek article img{
+  width: 100%;
+  height: 300px;
+}
+
+
+
